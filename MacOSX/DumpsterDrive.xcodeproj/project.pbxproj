@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C474D44D139DA8EE004B5F43 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = C474D401139DA8EE004B5F43 /* ASIDataCompressor.m */; };
+		C474D44E139DA8EE004B5F43 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = C474D403139DA8EE004B5F43 /* ASIDataDecompressor.m */; };
+		C474D450139DA8EE004B5F43 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C474D407139DA8EE004B5F43 /* ASIFormDataRequest.m */; };
+		C474D451139DA8EE004B5F43 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C474D409139DA8EE004B5F43 /* ASIHTTPRequest.m */; };
+		C474D452139DA8EE004B5F43 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C474D40D139DA8EE004B5F43 /* ASIInputStream.m */; };
+		C474D453139DA8EE004B5F43 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C474D40F139DA8EE004B5F43 /* ASINetworkQueue.m */; };
+		C474D486139DAA01004B5F43 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C474D484139DAA01004B5F43 /* bg.png */; };
+		C474D487139DAA01004B5F43 /* dumpsterdrivefinal.icns in Resources */ = {isa = PBXBuildFile; fileRef = C474D485139DAA01004B5F43 /* dumpsterdrivefinal.icns */; };
+		C474DB19139DBE4B004B5F43 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C474DB18139DBE4B004B5F43 /* CoreServices.framework */; };
+		C474DBD3139DBE64004B5F43 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C474DBD2139DBE64004B5F43 /* WebKit.framework */; };
+		C474DBD8139DBE76004B5F43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C474DBD7139DBE76004B5F43 /* SystemConfiguration.framework */; };
+		C474DBDA139DBE9C004B5F43 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C474DBD9139DBE9C004B5F43 /* libz.1.2.3.dylib */; };
+		C474DD15139DCD66004B5F43 /* DDRIVE.png in Resources */ = {isa = PBXBuildFile; fileRef = C474DD14139DCD66004B5F43 /* DDRIVE.png */; };
+		C4E8AA0316627A430095F49E /* DirectoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8A9FC16627A430095F49E /* DirectoryManager.m */; };
+		C4E8AA0416627A430095F49E /* DumpsterDriveAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8A9FF16627A430095F49E /* DumpsterDriveAppDelegate.m */; };
+		C4E8AA0516627A430095F49E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8AA0016627A430095F49E /* main.m */; };
+		C4E8AA0616627A430095F49E /* TransferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8AA0216627A430095F49E /* TransferManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* DumpsterDrive-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DumpsterDrive-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* DumpsterDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumpsterDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C474D400139DA8EE004B5F43 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		C474D401139DA8EE004B5F43 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		C474D402139DA8EE004B5F43 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		C474D403139DA8EE004B5F43 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		C474D406139DA8EE004B5F43 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		C474D407139DA8EE004B5F43 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		C474D408139DA8EE004B5F43 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		C474D409139DA8EE004B5F43 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		C474D40A139DA8EE004B5F43 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		C474D40B139DA8EE004B5F43 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		C474D40C139DA8EE004B5F43 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		C474D40D139DA8EE004B5F43 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		C474D40E139DA8EE004B5F43 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		C474D40F139DA8EE004B5F43 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		C474D484139DAA01004B5F43 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = resources/images/bg.png; sourceTree = "<group>"; };
+		C474D485139DAA01004B5F43 /* dumpsterdrivefinal.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = dumpsterdrivefinal.icns; path = resources/images/dumpsterdrivefinal.icns; sourceTree = "<group>"; };
+		C474DB18139DBE4B004B5F43 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		C474DBD2139DBE64004B5F43 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		C474DBD7139DBE76004B5F43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C474DBD9139DBE9C004B5F43 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		C474DBF1139DBEEA004B5F43 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		C474DC32139DC4CD004B5F43 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		C474DD14139DCD66004B5F43 /* DDRIVE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DDRIVE.png; sourceTree = "<group>"; };
+		C4E8A9FA16627A430095F49E /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppConstants.h; path = classes/AppConstants.h; sourceTree = "<group>"; };
+		C4E8A9FB16627A430095F49E /* DirectoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectoryManager.h; path = classes/DirectoryManager.h; sourceTree = "<group>"; };
+		C4E8A9FC16627A430095F49E /* DirectoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectoryManager.m; path = classes/DirectoryManager.m; sourceTree = "<group>"; };
+		C4E8A9FD16627A430095F49E /* DumpsterDrive_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DumpsterDrive_Prefix.pch; path = classes/DumpsterDrive_Prefix.pch; sourceTree = "<group>"; };
+		C4E8A9FE16627A430095F49E /* DumpsterDriveAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DumpsterDriveAppDelegate.h; path = classes/DumpsterDriveAppDelegate.h; sourceTree = "<group>"; };
+		C4E8A9FF16627A430095F49E /* DumpsterDriveAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DumpsterDriveAppDelegate.m; path = classes/DumpsterDriveAppDelegate.m; sourceTree = "<group>"; };
+		C4E8AA0016627A430095F49E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = classes/main.m; sourceTree = "<group>"; };
+		C4E8AA0116627A430095F49E /* TransferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransferManager.h; path = classes/TransferManager.h; sourceTree = "<group>"; };
+		C4E8AA0216627A430095F49E /* TransferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransferManager.m; path = classes/TransferManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				C474DB19139DBE4B004B5F43 /* CoreServices.framework in Frameworks */,
+				C474DBD3139DBE64004B5F43 /* WebKit.framework in Frameworks */,
+				C474DBD8139DBE76004B5F43 /* SystemConfiguration.framework in Frameworks */,
+				C474DBDA139DBE9C004B5F43 /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8AA0716627B970095F49E /* Libs */,
+				C4E8A9FB16627A430095F49E /* DirectoryManager.h */,
+				C4E8A9FC16627A430095F49E /* DirectoryManager.m */,
+				C4E8A9FD16627A430095F49E /* DumpsterDrive_Prefix.pch */,
+				C4E8A9FE16627A430095F49E /* DumpsterDriveAppDelegate.h */,
+				C4E8A9FF16627A430095F49E /* DumpsterDriveAppDelegate.m */,
+				C4E8AA0116627A430095F49E /* TransferManager.h */,
+				C4E8AA0216627A430095F49E /* TransferManager.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* DumpsterDrive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DumpsterDrive */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DumpsterDrive;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C4E8A9FA16627A430095F49E /* AppConstants.h */,
+				C4E8AA0016627A430095F49E /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C474DD14139DCD66004B5F43 /* DDRIVE.png */,
+				C474D484139DAA01004B5F43 /* bg.png */,
+				C474D485139DAA01004B5F43 /* dumpsterdrivefinal.icns */,
+				8D1107310486CEB800E47090 /* DumpsterDrive-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C474DBD7139DBE76004B5F43 /* SystemConfiguration.framework */,
+				C474DB18139DBE4B004B5F43 /* CoreServices.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				C474DBD2139DBE64004B5F43 /* WebKit.framework */,
+				C474DBD9139DBE9C004B5F43 /* libz.1.2.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C474D3FC139DA8EE004B5F43 /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				C474DC32139DC4CD004B5F43 /* ASICacheDelegate.h */,
+				C474DBF1139DBEEA004B5F43 /* ASIProgressDelegate.h */,
+				C474D400139DA8EE004B5F43 /* ASIDataCompressor.h */,
+				C474D401139DA8EE004B5F43 /* ASIDataCompressor.m */,
+				C474D402139DA8EE004B5F43 /* ASIDataDecompressor.h */,
+				C474D403139DA8EE004B5F43 /* ASIDataDecompressor.m */,
+				C474D406139DA8EE004B5F43 /* ASIFormDataRequest.h */,
+				C474D407139DA8EE004B5F43 /* ASIFormDataRequest.m */,
+				C474D408139DA8EE004B5F43 /* ASIHTTPRequest.h */,
+				C474D409139DA8EE004B5F43 /* ASIHTTPRequest.m */,
+				C474D40A139DA8EE004B5F43 /* ASIHTTPRequestConfig.h */,
+				C474D40B139DA8EE004B5F43 /* ASIHTTPRequestDelegate.h */,
+				C474D40C139DA8EE004B5F43 /* ASIInputStream.h */,
+				C474D40D139DA8EE004B5F43 /* ASIInputStream.m */,
+				C474D40E139DA8EE004B5F43 /* ASINetworkQueue.h */,
+				C474D40F139DA8EE004B5F43 /* ASINetworkQueue.m */,
+			);
+			name = ASIHTTPRequest;
+			path = classes/ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		C4E8AA0716627B970095F49E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				C474D3FC139DA8EE004B5F43 /* ASIHTTPRequest */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* DumpsterDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DumpsterDrive" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DumpsterDrive;
+			productInstallPath = "$(HOME)/Applications";
+			productName = DumpsterDrive;
+			productReference = 8D1107320486CEB800E47090 /* DumpsterDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DumpsterDrive" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DumpsterDrive */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* DumpsterDrive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				C474D486139DAA01004B5F43 /* bg.png in Resources */,
+				C474D487139DAA01004B5F43 /* dumpsterdrivefinal.icns in Resources */,
+				C474DD15139DCD66004B5F43 /* DDRIVE.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C474D44D139DA8EE004B5F43 /* ASIDataCompressor.m in Sources */,
+				C474D44E139DA8EE004B5F43 /* ASIDataDecompressor.m in Sources */,
+				C474D450139DA8EE004B5F43 /* ASIFormDataRequest.m in Sources */,
+				C474D451139DA8EE004B5F43 /* ASIHTTPRequest.m in Sources */,
+				C474D452139DA8EE004B5F43 /* ASIInputStream.m in Sources */,
+				C474D453139DA8EE004B5F43 /* ASINetworkQueue.m in Sources */,
+				C4E8AA0316627A430095F49E /* DirectoryManager.m in Sources */,
+				C4E8AA0416627A430095F49E /* DumpsterDriveAppDelegate.m in Sources */,
+				C4E8AA0516627A430095F49E /* main.m in Sources */,
+				C4E8AA0616627A430095F49E /* TransferManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DumpsterDrive_Prefix.pch;
+				INFOPLIST_FILE = "DumpsterDrive-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = DumpsterDrive;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DumpsterDrive_Prefix.pch;
+				INFOPLIST_FILE = "DumpsterDrive-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = DumpsterDrive;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "DumpsterDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DumpsterDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

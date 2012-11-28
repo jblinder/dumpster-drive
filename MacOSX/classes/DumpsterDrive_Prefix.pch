@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'DumpsterDrive' target in the 'DumpsterDrive' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+	#import "AppConstants.h"
+#endif
