@@ -17,3 +17,11 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+=======
+.DS_Store
+*.swp
+build/
+*.pbxuser
+*.perspective
+*.perspectivev3
+>>>>>>> c27db1a311ee595fbb04461175cc6b57b0961d23
